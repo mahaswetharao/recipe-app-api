@@ -3,8 +3,8 @@ MAINTAINER ME-THE-DEV
 
 ENV PYTHONUNBUFFERED 1
 
-ENV http_proxy 'http://PITC-Zscaler-India-Bangalore-GRC.proxy.corporate.ge.com:8080'
-ENV https_proxy 'http://PITC-Zscaler-India-Bangalore-GRC.proxy.corporate.ge.com:8080'
+#ENV http_proxy 'http://PITC-Zscaler-India-Bangalore-GRC.proxy.corporate.ge.com:8080'
+#ENV https_proxy 'http://PITC-Zscaler-India-Bangalore-GRC.proxy.corporate.ge.com:8080'
 
 COPY ./requirements.txt /requirements.txt
 RUN apk add --update --no-cache postgresql-client
